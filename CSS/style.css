@@ -228,3 +228,12 @@ footer a:hover {
     color: var(--orange-vif);
     transform: translateY(-3px);
 }
+
+
+
+.Projets.title{
+     width: 800px;
+    margin: 6rem auto;
+    text-align: center;
+    color: #6C63FF;
+}
