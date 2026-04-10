@@ -1,42 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Mon Portfolio - Mes Passions</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=R<link href="ht
-</head>
-<body>
-
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cloudflare.com" />
 </head>
 <body>
     <header>
         <div>
-            <a href="">Mon portfolio</a>
+            <a href="index.html">Mon portfolio</a>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">accueil</a></li>
                 <li><a href="Projets.html">Projets</a></li>
-                <li><a href="Passions.html">passions</a></li>
+                <li><a href="Passions.html" class="active">passions</a></li>
                 <li><a href="divertissement.html">Divertissement</a></li>
-                <li><a href="contacts.html">Passions</a></li>
+                <li><a href="contacts.html">contact</a></li>
             </ul>
         </nav>
     </header>
 
-  <main>
-    <h1>voici mes passions</h1>
-  </main>
+    <main class="container">
+        <div class="header-section">
+            <span class="subtitle">Ce qui me fait vibrer</span>
+            <h1>Mes Passions</h1>
+            <div class="underline"></div>
+        </div>
+
+        <div class="passions-grid">
+            <!-- Passion 1 : Développement Web -->
+            <div class="passion-item">
+                <div class="passion-header">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Développement Web</h3>
+                </div>
+                <p>Plus qu'un métier, c'est un art. Transformer une page blanche en une interface interactive et utile est ce qui me passionne le plus au quotidien.</p>
+            </div>
+
+            <!-- Passion 2 : Intelligence Artificielle -->
+            <div class="passion-item">
+                <div class="passion-header">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>Intelligence Artificielle</h3>
+                </div>
+                <p>Explorer comment les machines apprennent et comment l'IA peut simplifier nos vies, tout en restant éthique et innovante.</p>
+            </div>
+
+            <!-- Passion 3 : Design Graphique -->
+            <div class="passion-item">
+                <div class="passion-header">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>Design Graphique</h3>
+                </div>
+                <p>Le visuel est la première langue d'un site. J'aime marier les couleurs et les formes pour créer des expériences utilisateurs mémorables.</p>
+            </div>
+        </div>
+    </main>
 
     <footer>
         <p>Monique 2026 tous droits réservés</p>
-        <img src="image/in.png" alt="" width="30">
-        <img src="image/Git.png" alt="" width="30">
-        <img src="image/Twitter.png" alt="" width="30">
+        <div class="Social-icons">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
     </footer>
 </body>
 </html>

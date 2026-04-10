@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Mon Portfolio - Contact</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cloudflare.com" />
 </head>
 <body>
     <header>
         <div>
-            <a href="">Mon portfolio</a>
+            <a href="index.html">Mon portfolio</a>
         </div>
         <nav>
             <ul>
@@ -21,48 +22,64 @@
                 <li><a href="Projets.html">Projets</a></li>
                 <li><a href="Passions.html">passions</a></li>
                 <li><a href="divertissement.html">Divertissement</a></li>
-                <li><a href="contacts.html">contact</a></li>
+                <li><a href="contacts.html" class="active">contact</a></li>
             </ul>
         </nav>
     </header>
 
-  <main  <main class="contact-container">
-    <section class="contact-info">
-        <h1>Contactez-nous</h1>
-        <p>Basée à <strong>Lubumbashi</strong>, je suis disponible pour vos projets.</p>
-        
-        <div class="direct-contact">
-            <p><i class="fas fa-phone"></i> 0995443375</p>
-            <div class="social-apps">
-                <a href="https://wa.me" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-                <a href="https://t.me" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a>
-            </div>
-        </div>
-    </section>
+    <main class="contact-page">
+        <!-- LE CADRE UNIQUE -->
+        <div class="contact-card-unique">
+            
+            <!-- Côté Gauche : Infos avec fond coloré -->
+            <div class="contact-sidebar">
+                <h2>Contactez-moi</h2>
+                <p>Je suis baseé a lubumbashi, Je vous répondrai avec plaisir.</p>
+                
+                <div class="info-list">
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Lubumbashi, RDC</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>0995443375</span>
+                    </div>
+                </div>
 
-    <section class="contact-form">
-        <form action="#">
-            <div class="form-group">
-                <label for="nom">Nom</label>
-                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                <div class="quick-links">
+                    <a href="https://wa.me" class="social-btn wa"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                    <a href="https://t.me" class="social-btn tg"><i class="fa-brands fa-telegram"></i> Telegram</a>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="tel">Téléphone</label>
-                <input type="tel" id="tel" name="tel" placeholder="Votre numéro" required>
+
+            <!-- Côté Droit : Formulaire -->
+            <div class="contact-main-form">
+                <form action="#">
+                    <div class="input-group">
+                        <label>Votre Nom</label>
+                        <input type="text" placeholder="Entrez votre nom" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Votre Téléphone</label>
+                        <input type="tel" placeholder="Ex: 0995443375" required>
+                    </div>
+                    <button type="submit" class="send-button">
+                        Envoyer le message <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
             </div>
-            <button type="submit" class="btn-submit">Envoyer</button>
-        </form>
-    </section>
-  </main>
->
-    <h1>contactez-nous</h1>
-  </main>
+
+        </div>
+    </main>
 
     <footer>
         <p>Monique 2026 tous droits réservés</p>
-         <a href=""><i class="fa-brands fa-github"></i></a>
-        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        <div class="Social-icons">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
     </footer>
 </body>
 </html>
