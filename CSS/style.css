@@ -165,7 +165,7 @@ section h2::after{
 }
 
 .competences table{
-    width: 80%;
+    width: 80% !important;
     margin: 0 auto;
     border-collapse: collapse;
     background-color: #FFF;
